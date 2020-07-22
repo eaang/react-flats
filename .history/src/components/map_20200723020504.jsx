@@ -6,8 +6,8 @@ const Marker = () => <div className="marker"></div>;
 class SimpleMap extends Component {
   static defaultProps = {
     center: {
-      lat: 48.884211,
-      lng: 2.34689
+      lat: 59.95,
+      lng: 30.33
     },
     zoom: 11
   };

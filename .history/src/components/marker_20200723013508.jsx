@@ -1,0 +1,1 @@
+const Marker = <div className="marker" />;

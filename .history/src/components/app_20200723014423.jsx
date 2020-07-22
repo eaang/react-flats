@@ -17,9 +17,7 @@ class App extends Component {
     return (
       <div>
         <FlatList flats={list} />
-        <div className="map-container">
-          <SimpleMap />
-        </div>
+        <SimpleMap />
       </div>
     );
   }

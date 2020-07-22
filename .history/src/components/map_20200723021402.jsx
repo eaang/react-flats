@@ -7,7 +7,7 @@ class SimpleMap extends Component {
   static defaultProps = {
     center: {
       lat: 48.884211,
-      lng: 2.34689
+      lng: 30.33
     },
     zoom: 11
   };

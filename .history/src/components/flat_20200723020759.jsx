@@ -10,12 +10,12 @@ class Flat extends Component {
   render() {
     const { info } = this.props;
     return (
-      <div className="card" style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(${info.imageUrl})`}}>
-        <div className="card-category">{info.price} {info.priceCurrency}</div>
-        <div className="card-description">
+      <div class="card" style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(${info.imageUrl})`}}>
+        <div class="card-category">{info.price} {info.priceCurrency}</div>
+        <div class="card-description">
           <h2>{info.name}</h2>
         </div>
-        <a className="card-link" href="#"></a>
+        <a class="card-link" href="#"></a>
       </div>
     );
   }
