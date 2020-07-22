@@ -9,13 +9,13 @@ class SimpleMap extends Component {
       lat: 48.884211,
       lng: 2.34689
     },
-    zoom: 14
+    zoom: 11
   };
 
   render() {
-    const { coords } = this.props;
-    const lat = coords[0];
-    const lng = coords[1];
+    const { coordinates } = this.props;
+    const { lat } = coordinates[0];
+    const { lng } = coordinates[1];
     return (
       // Important! Always set the container height explicitly
       <div style={{ height: '100vh', width: '100%' }}>

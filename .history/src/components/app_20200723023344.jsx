@@ -9,7 +9,7 @@ class App extends Component {
 
     this.state = {
       list: flats,
-      selectedFlatCoords: [48.884211, 2.34689],
+      selectedFlatCoords: null,
     };
   }
 
@@ -17,6 +17,7 @@ class App extends Component {
     this.setState({
       selectedFlatCoords: coords
     });
+    console.log(this.selectedFlatCoords);
   }
 
   render = () => {
@@ -26,7 +27,7 @@ class App extends Component {
       <div>
         <FlatList flats={list} selectFlat={this.selectFlat} />
         <div className="map-container">
-          <SimpleMap coords={selectedFlatCoords} />
+          <SimpleMap selectFlat={selectedFlatCoords} />
         </div>
       </div>
     );

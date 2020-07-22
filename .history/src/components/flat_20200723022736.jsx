@@ -4,8 +4,8 @@ class Flat extends Component {
   handleClick = () => {
     const { selectFlat } = this.props;
     const { info } = this.props;
-    const coords = [info.lat, info.lng];
-    selectFlat(coords);
+    const { coords } = [info.lat, info.lng];
+    selectFlat(id);
   }
 
   render() {

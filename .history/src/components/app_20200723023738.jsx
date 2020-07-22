@@ -9,7 +9,7 @@ class App extends Component {
 
     this.state = {
       list: flats,
-      selectedFlatCoords: [48.884211, 2.34689],
+      selectedFlatCoords: null,
     };
   }
 

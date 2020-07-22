@@ -9,7 +9,7 @@ class SimpleMap extends Component {
       lat: 48.884211,
       lng: 2.34689
     },
-    zoom: 14
+    zoom: 11
   };
 
   render() {
@@ -25,8 +25,8 @@ class SimpleMap extends Component {
           defaultZoom={this.props.zoom}
         >
           <Marker
-            lat={lat}
-            lng={lng}
+            lat={59.955413}
+            lng={30.337844}
             text="My Marker"
           />
         </GoogleMapReact>

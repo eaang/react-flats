@@ -6,6 +6,7 @@ class Flat extends Component {
     const { info } = this.props;
     const coords = [info.lat, info.lng];
     selectFlat(coords);
+    console.log(coords);
   }
 
   render() {

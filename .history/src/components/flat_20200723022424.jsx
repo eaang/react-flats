@@ -2,10 +2,9 @@ import React, { Component } from 'react';
 
 class Flat extends Component {
   handleClick = () => {
-    const { selectFlat } = this.props;
-    const { info } = this.props;
-    const coords = [info.lat, info.lng];
-    selectFlat(coords);
+    const { selectGif } = this.props;
+    const { id } = this.props;
+    selectGif(id);
   }
 
   render() {
